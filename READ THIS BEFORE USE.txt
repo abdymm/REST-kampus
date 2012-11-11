@@ -1,5 +1,7 @@
 [Documentation]
 
+FILE SERVICE : /service/api.php
+
 *GET*
 getAllMahasiswa				
 api.php/{method}
