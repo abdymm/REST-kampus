@@ -1,0 +1,46 @@
+[Documentation]
+
+*GET*
+getAllMahasiswa				
+api.php/{method}
+
+getAllDosen
+api.php/{method}
+
+searchMahasiswa
+api.php/{method}/{nim}
+
+searchDosen
+api.php/{method}/{kode_dosen}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*POST*
+Insert Mahasiswa
+api.php/insertMahasiswa
+
+Insert Dosen
+api.php/insertDosen
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*DELETE*
+
+Delete Dosen
+api.php/deleteDosen
+
+Delete Mahasiswa
+api.php/deleteMahasiswa
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+JANGAN LUPA GANTI URLNYA YA, DI SESUAIKAN,
+contohnya, mau lakuin getMahasiswa;
+karena saya simpan API.php -nya di : 
+C:/xampp/htdocs/REST/mahasiswaService/service/api.php
+kalo do browser kan jadi gini :
+http://localhost/REST/mahasiswaService/service/api.php
+
+jadi kalo sebagai client, misalkan saya mau lakuin getAllMahahsiswa (Ngambil semua data mahasiswa), maka URi untuk gunain servicenya kaya gini :
+http://localhost/rest/mahasiswaService/service/api.php/getAllMahasiswa
+*ini cuma masalah tempat nyimpen filenya aj (karena masih di local) *
